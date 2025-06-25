@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6FE6FC;
+    gap: 40px;
+    flex-direction: column;
+}
+
+
+.main_box{
+    width: 500px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px
+}
+.todo_head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid grey;
+    padding-bottom: 10px;
+}
+
+.todo_head input{
+    width: 400px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: grey ;
+}
+.todo_head .addButton{
+    width: 40px;
+    height: 40px;
+    background: yellowgreen;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+/* button items */
+.single_todo{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.single_todo input{
+    width: 300px;
+    height: 30px;
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+    border: none;
+    outline: none;
+}
+.single_todo button{
+     width: 35px;
+     height: 35px;
+     border-radius: 50%;
+}
+.edit_button{
+    background: yellow;
+}
+.done_button{
+    background: #1DCD9F;
+}
+.delete_button{
+    background: red;
+}
